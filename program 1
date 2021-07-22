@@ -1,0 +1,26 @@
+program 1
+
+
+read -p "enter the register nnumber " num
+rev num
+let "count = 0"
+ while [ $num -gt 0 ]
+ do
+ let "mod = $((num % 10 ))"
+ if [ $count%2==0 }
+ let "sum =$((sum + mod ))"
+ 
+ let "num =$((num/10))"
+ echo $mod
+ done 
+ echo $sum
+ 
+ 
+ 
+ 
+ 
+progran 2
+
+
+read -p "enter the name "name
+head -10 $name
